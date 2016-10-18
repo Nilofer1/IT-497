@@ -3,16 +3,47 @@ title: "ClassExercise-1"
 author: "Nilofer"
 output: html_document
 ---
-
+```{r}
 df <- read.table("http://www.itk.ilstu.edu/faculty/jrwolf/hacosts.csv", header = TRUE, sep = ",")
 df
+
+```
+
+```{r}
 names(df)
-head(df, 10)
+```
+```{r}
 tail(df)
+```
+
+```{r}
 nrow(df)
+```
+
+
+```{r}
 ncol(df)
+```
+
+```{r}
 str(df)
+```
+
+```{r}
 df$State
+```
+
+```{r}
 mean(df$Cost)
+```
+
+```{r}
 max(df$Cost)
+```
+
+```{r}
 min(df$Cost)
+```
+
+
+
