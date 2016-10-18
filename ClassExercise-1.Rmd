@@ -1,0 +1,18 @@
+--
+title: "ClassExercise-1"
+author: "Nilofer"
+output: html_document
+---
+
+df <- read.table("http://www.itk.ilstu.edu/faculty/jrwolf/hacosts.csv", header = TRUE, sep = ",")
+df
+names(df)
+head(df, 10)
+tail(df)
+nrow(df)
+ncol(df)
+str(df)
+df$State
+mean(df$Cost)
+max(df$Cost)
+min(df$Cost)
